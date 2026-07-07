@@ -7,7 +7,6 @@ class TreePrinter:
 
     def render(self, roots: list[TreeNode]) -> str:
         lines: list[str] = []
-
         for root in roots:
             # Root nodes are printed without connectors
             lines.append(root.name)
@@ -31,9 +30,7 @@ class TreePrinter:
     ) -> None:
 
         connector = "└── " if is_last else "├── "
-
         lines.append(prefix + connector + node.name)
-
         new_prefix = prefix + ("    " if is_last else "│   ")
 
         for i, child in enumerate(node.children):
