@@ -1,4 +1,7 @@
 from parser import Parser
+from tree_printer import TreePrinter
+from builder import Builder
+
 text = """
 backend/
 
@@ -34,5 +37,8 @@ backend/
 
 requirements.txt
 """
-pars = Parser()
-out = pars.parse(text)
+nodes = Parser().parse(text)
+roots = Builder().build(nodes)
+
+out = TreePrinter().render(roots)
+print(out)

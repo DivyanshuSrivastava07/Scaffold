@@ -18,9 +18,9 @@ class TreeNode:
     is_dir:bool
     parent: Optional["TreeNode"] = None
     children:list["TreeNode"] = field(default_factory=list)
-    def add_child(self,child:"ParseNode")->None:
+    def add_child(self,child:"TreeNode")->None:
         child.parent = self
-        child.children.append(child)
+        self.children.append(child)
     @property
     def is_leaf(self) -> bool:
         return (len(self.child) == 0)
