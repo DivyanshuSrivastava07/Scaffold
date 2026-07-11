@@ -1,4 +1,4 @@
-from models import ParseNode
+from .models import ParseNode
 class Parser:
     """
         Convert the indented directory description into ParseNode Objects.
