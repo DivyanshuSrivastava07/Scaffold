@@ -5,7 +5,7 @@ Stop creating project folders by hand.
 ForgeTree converts a simple indented text description into a complete directory structure with a clean, modular architecture.
 
 Example:
-
+```
 backend/
     app/
         main.py
@@ -15,7 +15,9 @@ backend/
 backend/
 └── app/
     └── main.py
+```
 ---
+
 ## Why ForgeTree?
 
 While working on experiments and side projects, I found myself repeatedly creating the same directory structures by hand.
