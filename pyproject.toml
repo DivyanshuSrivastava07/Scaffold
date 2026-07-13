@@ -3,7 +3,7 @@ requires = ["setuptools>=68"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "scaffold"
+name = "ForgeTree"
 version = "1.0.0"
 description = "Generate project directory structures from an indented text description."
 readme = "README.md"
@@ -19,7 +19,7 @@ keywords = [
     "directory",
     "tree",
     "generator",
-    "scaffold",
+    "forgetree",
     "automation"
 ]
 
