@@ -1,4 +1,4 @@
-from models import ParseNode,TreeNode
+from .models import ParseNode,TreeNode
 
 class Builder:
     def build(self,nodes:list[ParseNode]) -> list[TreeNode]:

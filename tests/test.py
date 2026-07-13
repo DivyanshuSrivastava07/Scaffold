@@ -1,5 +1,5 @@
 from scaffold.parser import Parser
-from scaffold.tree_printer import TreePrinter
+# from scaffold.tree_printer import TreePrinter
 from scaffold.builder import Builder
 from scaffold.writer import FileSystemWriter
 
