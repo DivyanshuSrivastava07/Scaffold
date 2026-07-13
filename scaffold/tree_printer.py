@@ -1,4 +1,4 @@
-from models import TreeNode
+from .models import TreeNode
 
 class TreePrinter:
     """
